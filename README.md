@@ -1,2 +1,2 @@
-# diyonlinux
+# DiyOnLinux
 Personal development projects...
