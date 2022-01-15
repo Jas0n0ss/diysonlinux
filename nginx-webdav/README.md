@@ -4,7 +4,7 @@
 git clone https://github.com/arut/nginx-dav-ext-module.git
 wget http://tengine.taobao.org/download/tengine-2.3.3.tar.gz
 tar zxvf tengine-2.3.3.tar.gz && cd tengine-2.3.3
-./configure --with-http_dav_module --add-module=nginx-dav-ext-module --sbin-path=/usr/local/sbin/nginx  && make -j 16 && make install
+./configure --with-http_dav_module --add-module=../nginx-dav-ext-module --sbin-path=/usr/local/sbin/nginx  && make -j 16 && make install
 htpasswd -c /mdata/web/webdav/.htpasswd webdav
 ```
 
