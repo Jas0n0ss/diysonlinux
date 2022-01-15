@@ -5,9 +5,8 @@
 
 一键脚本（centos）
 ```
-bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/rrshare_docker/master/rrshare.sh)
+bash <(curl -L -s https://raw.githubusercontent.com/j0bb0/diysonlinux/main/rrshare/rrtv_install.sh)
 ```
-![](https://ww1.sinaimg.cn/large/007i4MEmgy1g1xunvmd4yj30lb0buq35.jpg)
 
 ### 手动执行
 ```
