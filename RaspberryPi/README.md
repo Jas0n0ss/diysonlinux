@@ -22,27 +22,27 @@ First let's get started:
 
 - Then let's configure our device :
 
-  ![image-20220227105533879](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227105533879.png)
+  ![image-20220227105533879](images/image-20220227105533879.png)
 
-​		![image-20220227111936504](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227111936504.png)
+​		![image-20220227111936504](images/image-20220227111936504.png)
 
-![image-20220227112013984](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227112013984.png)
+![image-20220227112013984](images/image-20220227112013984.png)
 
-![image-20220227105858422](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227105858422.png)
+![image-20220227105858422](images/image-20220227105858422.png)
 
 
 
-![image-20220227105941801](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227105941801.png)
+![image-20220227105941801](images/image-20220227105941801.png)
 
-![image-20220227105958138](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227105958138.png)
+![image-20220227105958138](images/image-20220227105958138.png)
 
-![image-20220227112230613](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227112230613.png)
+![image-20220227112230613](images/image-20220227112230613.png)
 
-![image-20220227112334672](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227112334672.png)
+![image-20220227112334672](images/image-20220227112334672.png)
 
-![image-20220227110239309](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227110239309.png)
+![image-20220227110239309](images/image-20220227110239309.png)
 
-![image-20220227110324280](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227110324280.png)
+![image-20220227110324280](images/image-20220227110324280.png)
 
 After above settings disconnect wire connect with your PC, You should be able to connect to your WIFi OpenWrt with password just set.
 
@@ -56,11 +56,11 @@ You just set all the things just like me above, then connect PI `WAN Interface`w
 
 Then enjoy the high speed Internet. Above just the  basically settings for your guys. If you want to explore more, I will shoot you some examples below and Have Fun.
 
-![image-20220227111702310](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227111702310.png)
+![image-20220227111702310](images/image-20220227111702310.png)
 
-![image-20220227111724399](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227111724399.png)
+![image-20220227111724399](images/image-20220227111724399.png)
 
-![image-20220227111806635](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227111806635.png)
+![image-20220227111806635](images/image-20220227111806635.png)
 
-![image-20220227112446000](/Users/abo/Desktop/diysonlinux/RaspberryPi/image-20220227112446000.png)
+![image-20220227112446000](images/image-20220227112446000.png)
 
