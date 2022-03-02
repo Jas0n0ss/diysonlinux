@@ -34,7 +34,7 @@
 
   Please refer shadowrocket, maybe you've heard of it...
 
-- [Pi-Hole ](Pi-hole)
+- **[Pi-Hole ](Pi-hole)**
 
   DNS and AD block service: [Pi-hole – Network-wide protection](https://pi-hole.net/)
 
