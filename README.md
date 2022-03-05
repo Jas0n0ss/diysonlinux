@@ -2,9 +2,11 @@
 
 > **Collected Some Of Interesting Open Source Staffs**
 
+---
+
 - [**aliyundrive-webdav**](aliyundrive-webdav)
 
-- [**rrshareweb offline **](rrshare)
+- [**rrshareweb -->offline**](rrshare)
 
 - [**vlmcsd**](vlmcsd)
 
@@ -20,5 +22,5 @@
 
 - **[Pi-Hole ](Pi-hole)**
 
-- Open Source Video Meida Server **[Emby and Jellyfin](media)**
+- **[Emby and Jellyfin](media)**
 ---
