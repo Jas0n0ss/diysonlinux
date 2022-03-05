@@ -20,6 +20,8 @@ yum install https://repo.jellyfin.org/releases/server/centos/stable/server/jelly
 systemctl status emby-server.service && systemctl status emby-server.service
 ```
 Open a web browser to http://localhost:8096
+![image](https://user-images.githubusercontent.com/88020021/156881627-8169ef37-c0d1-45b3-8834-c11030a46c3b.png)
+
 
 > *Emby*
 
@@ -32,4 +34,6 @@ https://github.com/MediaBrowser/Emby.Releases/releases
 dpkg -i https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.0.29/emby-server-deb_4.7.0.29_amd64.deb
 ```
 Open a web browser to http://localhost:8096
+![image](https://user-images.githubusercontent.com/88020021/156881497-26afa1ea-dfa2-44c9-b53f-30052416c61e.png)
+
 
