@@ -25,6 +25,7 @@ Open a web browser to http://localhost:8096
 
 Ref:
 https://emby.media/linux-server.html
+
 https://github.com/MediaBrowser/Emby.Releases/releases
 ```
 # Ubuntu X64
