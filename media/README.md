@@ -5,7 +5,7 @@
 Ref:
 https://jellyfin.org/downloads/
 
-```
+```bash
 # Ubuntu
 sudo apt install apt-transport-https
 wget -O - https://repo.jellyfin.org/jellyfin_team.gpg.key | sudo apt-key add -
@@ -23,11 +23,11 @@ Open a web browser to http://localhost:8096
 
 > *Emby*
 
-Ref:
+
 https://emby.media/linux-server.html
 
 https://github.com/MediaBrowser/Emby.Releases/releases
-```
+```bash
 # Ubuntu X64
 dpkg -i https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.0.29/emby-server-deb_4.7.0.29_amd64.deb
 ```
