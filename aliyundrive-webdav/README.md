@@ -5,6 +5,8 @@
 https://github.com/messense/aliyundrive-webdav
 
 https://github.com/zxbu/webdav-aliyundriver
+
+https://github.com/messense/aliyundrive-fuse.git
 #### Server:
 
 Run with Docker
