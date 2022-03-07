@@ -15,7 +15,7 @@ Let's get started:
   systemctl start docker && systemctl enable docker
   # do some preparation work
   mkdir /etc/shadowsocks 
-  cat >/etc/shadowsocks<<EOF
+  cat >/etc/shadowsocks/config.json<<EOF
   {
       "server":"0.0.0.0",
       "server_port":33333,   # Port which you client can access to
