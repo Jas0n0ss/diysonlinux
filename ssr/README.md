@@ -28,8 +28,8 @@ Let's get started:
   EOF
   # run your own application with docker
   docker run -d \
-  	-p 1139:1139/tcp \
-  	-p 1139:1139/udp \
+  	-p 33333:33333/tcp \
+  	-p 33333:33333/udp \
   	--name ssr \
   	-v /etc/shadowsocks:/etc/shadowsocks-libev \
   	--restart=always \
