@@ -1,6 +1,6 @@
-### *DiyOnLinux*
+# *DiyOnLinux*
 
-> **Collected Some Of Interesting Open Source Staffs**
+> **Collected Some Of Interesting Open Source Staff**
 
 ---
 
