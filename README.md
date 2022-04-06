@@ -23,4 +23,5 @@
 - **[Pi-Hole ](Pi-hole)**
 
 - **[Emby and Jellyfin](media)**
+- **[Douyu live](live)**
 ---
