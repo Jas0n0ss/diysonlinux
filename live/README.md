@@ -4,10 +4,13 @@
 - Apple TV +IPlay TV(或者其他任何支持导入m3u直播源的app)
 - 参考项目：https://github.com/wbt5/real-url
 
-> 演示
+> 演示以及环境准备
 
 获取对应的直播源获取脚本：https://github.com/wbt5/real-url
-```python
+
+```bash
+[root@wangyuan scripts]# yum install nodejs -y && yum install python-pip python3-pip
+[root@wangyuan scripts]# pip install pyexecjs && pip3 install pyexecjs
 [root@wangyuan scripts]# python3 douyu.py 
 输入斗鱼直播间号：
 2758565
@@ -15,7 +18,7 @@
 ```
 ⚠️注意事项：
 脚本输出的播放地址可能会有问题，需要将对应的主机名修改为以下cdn的任何一个（自己测试那个效果最好）：
-```
+```bash
 # 两个阿里的CDN：
     dyscdnali1.douyucdn.cn
     dyscdnali3.douyucdn.cn
@@ -27,7 +30,7 @@
 > 生成m3u文件
 
 - 将输出的两个链接中的主机名作修改之后，转换成可以识别的格式：
-```
+```bash
 [root@wangyuan scripts]#  head -n5 ../m3u/douyu.m3u 
 #EXTM3U
 
