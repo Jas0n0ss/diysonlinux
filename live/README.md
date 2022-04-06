@@ -41,7 +41,7 @@ Apple TV 上可以通过IPlay TV 或者Obox这样的app，在线添加或者本�
 
 以下是个人偶尔看的一些节目，仅供参考：
 ```yaml
-2758565:牛叔说电影：
+2758565:牛叔说电影:
 {'flv': 'http://dyscdnali3.douyucdn.cn/live/2758565rghjMAcIL.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/2758565rghjMAcIL.xs?uuid='}
 3652542:神秘嘉宾橙子:
 {'flv': 'http://dyscdnali3.douyucdn.cn/live/3652542rDfEFTgw2.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/3652542rDfEFTgw2.xs?uuid='}
@@ -55,6 +55,6 @@ Apple TV 上可以通过IPlay TV 或者Obox这样的app，在线添加或者本�
 {'flv': 'http://dyscdnali3.douyucdn.cn/live/248753r9wHEgtgT1.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/248753r9wHEgtgT1.xs?uuid='}
 537772:放逐大帝:
 {'flv': 'http://dyscdnali3.douyucdn.cn/live/5377721rsUFS6nGI.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/5377721rsUFS6nGI.xs?uuid='}
-6717704:酱油瓶：
+6717704:酱油瓶:
 {'flv': 'http://dyscdnali3.douyucdn.cn/live/6717704r2j1dUqpo.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/6717704r2j1dUqpo.xs?uuid='}
 ```
