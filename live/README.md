@@ -6,6 +6,7 @@
 
 > 演示
 
+获取对应的直播源获取脚本：https://github.com/wbt5/real-url
 ```python
 [root@wangyuan scripts]# python3 douyu.py 
 输入斗鱼直播间号：
