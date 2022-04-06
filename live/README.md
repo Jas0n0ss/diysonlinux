@@ -13,7 +13,7 @@
 {'flv': 'http://dyscdnali1.douyucdn.cn/live/2758565rghjMAcIL.flv?uuid=', 'x-p2p': 'http://tx2play1.douyucdn.cn/live/2758565rghjMAcIL.xs?uuid='}
 ```
 ⚠️注意事项：
-脚本输出的`x-p2p`播放会有问题，需要将对应的主机名修改为以下任何一个（自己测试那个效果最好）：
+脚本输出的播放地址可能会有问题，需要将对应的主机名修改为以下cdn的任何一个（自己测试那个效果最好）：
 ```
 # 两个阿里的CDN：
     dyscdnali1.douyucdn.cn
@@ -40,44 +40,21 @@ Apple TV 上可以通过IPlay TV 或者Obox这样的app，在线添加或者本�
 > 汇总
 
 以下是个人偶尔看的一些节目，仅供参考：
-```
-[root@wangyuan scripts]# cat ../m3u/douyu.m3u 
-#EXTM3U
-
-#EXTINF:-1,牛叔说电影---斗鱼
-http://hls1a-akm.douyucdn.cn/live/2758565rghjMAcIL.flv?uuid=
-
-#EXTINF:-1,放逐大帝灬---斗鱼
-
-http://hlsa-akm.douyucdn.cn/live/5377721rsUFS6nGI.flv?uuid=
-
-#EXTINF:-1,神秘嘉宾橙子---斗鱼
-http://dyscdnali1.douyucdn.cn/live/3652542rDfEFTgw2.flv?uuid=
-
-#EXTINF:-1,科幻漫威---斗鱼
-
-http://hlsa-akm.douyucdn.cn/live/252802r4adW4jo5L.flv?uuid=
-
-#EXTINF:-1,科幻灾难---斗鱼
-
-http://hlsa-akm.douyucdn.cn/live/248753r9wHEgtgT1.flv?uuid=
-
-#EXTINF:-1,英雄联盟赛事---斗鱼
-
-http://hlsa-akm.douyucdn.cn/live/288016rlols5.flv?uuid=
-
-#EXTINF:-1,斗鱼酱油瓶---斗鱼
-http://hlsa-akm.douyucdn.cn/live/6717704r2j1dUqpo.xs?uuid=
-
-#EXTINF:-1,小片片说大片---斗鱼
-http://hlsa-akm.douyucdn.cn/live/4258555r3isvDdlq.xs?uuid=
-
-#EXTINF:-1,PDD---斗鱼
-http://hlsa-akm.douyucdn.cn/live/24422rJZDUzZKbCt.xs?uuid=
-
-#EXTINF:-1,邦Sa---斗鱼
-http://hlsa-akm.douyucdn.cn/live/5720533rttUaMPs1.xs?uuid=
-
-#EXTINF:-1,文森特---虎牙
-http://v-replay.cdn.huya.com/record/huyalive/1608993854-1608993854-6910575982394998784-3218111164-10057-A-0-1-imgplus/2022-04-04-19:02:45_2022-04-05-00:16:35.m3u8?bitrate=0&client=81&definition=yuanhua&pid=1608993854&scene=vodreplay&vid=690292159
+```yaml
+2758565:牛叔说电影：
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/2758565rghjMAcIL.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/2758565rghjMAcIL.xs?uuid='}
+3652542:神秘嘉宾橙子:
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/3652542rDfEFTgw2.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/3652542rDfEFTgw2.xs?uuid='}
+7940025:chogod虫王:
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/7940025rdJVbh461.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/7940025rdJVbh461.xs?uuid='}
+288016:英雄联盟赛事:
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/288016rlols5.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/288016rlols5.xs?uuid='}
+252802:科幻灾难:
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/252802r4adW4jo5L.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/252802r4adW4jo5L.xs?uuid='}
+248753:动作灾难:
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/248753r9wHEgtgT1.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/248753r9wHEgtgT1.xs?uuid='}
+537772:放逐大帝:
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/5377721rsUFS6nGI.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/5377721rsUFS6nGI.xs?uuid='}
+6717704:酱油瓶：
+{'flv': 'http://dyscdnali3.douyucdn.cn/live/6717704r2j1dUqpo.flv?uuid=', 'x-p2p': 'http://hlsa-akm.douyucdn.cn/live/6717704r2j1dUqpo.xs?uuid='}
 ```
