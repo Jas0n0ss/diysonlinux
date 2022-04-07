@@ -87,7 +87,7 @@ class DouYu:
 
         return key
 
-    def get_pc_js(self, cdn='ws-h5', rate=0):
+    def get_pc_js(self, cdn='tct-h5', rate=0):
         """
         通过PC网页端的接口获取完整直播源。
         :param cdn: 主线路ws-h5、备用线路tct-h5
