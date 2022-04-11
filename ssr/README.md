@@ -1,5 +1,6 @@
 #####  SSR+OpenWRT
 
+[high-speed](high-speed)
 > Well , You know Sometime for some reason you need to browser like a Google like GitHub, well, I think here is a solution for you and they're pretty stable right now.
 
 Let's get started:
