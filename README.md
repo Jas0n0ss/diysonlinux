@@ -24,4 +24,4 @@
 
 - **[Emby and Jellyfin](media)**
 - **[Douyu live](live)**
----
+- **[Hackintosh](hackintosh)**
