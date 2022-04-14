@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-#coding=utf-8
+# 获取斗鱼直播间的真实流媒体地址，默认最高画质
+# 使用 https://github.com/wbt5/real-url/issues/185 中两位大佬@wjxgzz @4bbu6j5885o3gpv6ss8找到的的CDN，在此感谢！
+#encodeing=utf-5
 
 import hashlib
 import re
@@ -8,15 +9,17 @@ import time
 import execjs
 import requests
 
+
 class DouYu:
     """
+    可用来替换返回链接中的主机部分
+    两个阿里的CDN：
+    dyscdnali1.douyucdn.cn
+    dyscdnali3.douyucdn.cn
     墙外不用带尾巴的akm cdn：
-    
     hls3-akm.douyucdn.cn
     hlsa-akm.douyucdn.cn
     hls1a-akm.douyucdn.cn
-    akm-tct.douyucdn.cn
-
     """
 
     def __init__(self, rid):
@@ -86,7 +89,7 @@ class DouYu:
 
         return key
 
-    def get_pc_js(self, cdn='ws-h5', rate=4):
+    def get_pc_js(self, cdn='ws-h5', rate=0):
         """
         通过PC网页端的接口获取完整直播源。
         :param cdn: 主线路ws-h5、备用线路tct-h5
@@ -126,8 +129,8 @@ class DouYu:
         else:
             key = self.get_js()
         real_url = {}
-        real_url["flv"] = "http://hls1a-akm.douyucdn.cn/live/{}.flv?uuid=".format(key)
-        real_url["x-p2p"] = "http://hls3-akm.douyucdn.cn/live/{}.xs?uuid=".format(key)
+        real_url["flv"] = "http://dyscdnali1.douyucdn.cn/live/{}.flv?uuid=".format(key)
+        real_url["x-p2p"] = "http://tx2play1.douyucdn.cn/live/{}.xs?uuid=".format(key)
         return real_url
 
 if __name__ == '__main__':
