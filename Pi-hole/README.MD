@@ -2,7 +2,7 @@
 
 Configure your router’s DHCP options to force clients to use Pi-hole as their DNS server, or manually configure each device​ to use the Pi-hole as their DNS server.
 
-> **Where you can find Pi-Hole document **
+> **Where you can find Pi-Hole document**
 
 ##### Reference:
 [https://pi-hole.net/](https://pi-hole.net/)
