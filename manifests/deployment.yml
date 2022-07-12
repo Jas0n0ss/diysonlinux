@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "azk8s-95e5"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "azk8s-95e5"
+  template:
+    metadata:
+      labels:
+        app: "azk8s-95e5"
+    spec:
+      containers:
+        - name: "azk8s-95e5"
+          image: "azk8sapps.azurecr.io/azk8s"
+          ports:
+          - containerPort: 3001
