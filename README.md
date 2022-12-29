@@ -17,4 +17,5 @@
 - **[Emby and Jellyfin](projects/media)**
 - **[Douyu live](projects/live)**
 - **[Hackintosh](projects/hackintosh)**
+- **[Xray](projects/xray)**
 
