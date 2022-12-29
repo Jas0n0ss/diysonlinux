@@ -19,3 +19,7 @@
 - **[Hackintosh](projects/hackintosh)**
 - **[Xray](projects/xray)**
 
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Jas0n0ss/diysonlinux.svg)](https://starchart.cc/Jas0n0ss/diysonlinux)
