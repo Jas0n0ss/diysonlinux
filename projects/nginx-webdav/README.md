@@ -8,7 +8,7 @@ tar zxvf tengine-2.3.3.tar.gz && cd tengine-2.3.3
 htpasswd -c /mdata/web/webdav/.htpasswd webdav
 ```
 
-```conf
+```NGINX
 http {
 dav_ext_lock_zone zone=davlock:10m;
 server {
